@@ -1,0 +1,184 @@
+{
+	"Changes": [
+	{
+		"LogName" : "New Large Fish Tank",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/large/Large Fish Tank.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 48 },
+         "ToArea": { "X": 0, "Y": 1152, "Width": 128, "Height": 48 },
+		"PatchMode": "Replace",
+		"When":{ 
+			"Large Fish Tank": "true"
+		}
+	},
+	{
+		"LogName" : "Large Fish Tank Strip Light Top",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/large/Large Strip Light Top.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 48 },
+         "ToArea": { "X": 0, "Y": 1152, "Width": 128, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Large Fish Tank Top": "Strip Light"
+		}
+	},
+	{
+		"LogName" : "Large Fish Tank Full Hood Top",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/large/Large Full Hood Top.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 48 },
+         "ToArea": { "X": 0, "Y": 1152, "Width": 128, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Large Fish Tank Top": "Full Hood"
+		}
+	},
+	{
+		"LogName" : "Large Fish Tank Grey Rock Background",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/large/Large Grey Rock Background.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 48 },
+         "ToArea": { "X": 0, "Y": 1152, "Width": 128, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Large Fish Tank Background": "Grey Rock"
+		}
+	},
+	{
+		"LogName" : "Large Fish Tank Tan Rock Background",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/large/Large Tan Rock Background.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 48 },
+         "ToArea": { "X": 0, "Y": 1152, "Width": 128, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Large Fish Tank Background": "Tan Rock"
+		}
+	},
+	{
+		"LogName" : "Large Fish Tank White Rock Background",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/large/Large White Rock Background.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 48 },
+         "ToArea": { "X": 0, "Y": 1152, "Width": 128, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Large Fish Tank Background": "White Rock"
+		}
+	},
+	{
+		"LogName" : "Large Fish Tank Red Rock Background",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/large/Large Red Rock Background.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 48 },
+         "ToArea": { "X": 0, "Y": 1152, "Width": 128, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Large Fish Tank Background": "Red Rock"
+		}
+	},
+	{
+		"LogName" : "Large Fish Tank Mossy Overlay",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/large/Large Mossy Background.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 48 },
+         "ToArea": { "X": 0, "Y": 1152, "Width": 128, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Large Fish Tank Background Overlay": "Mossy"
+		}
+	},
+	{
+		"LogName" : "Large Fish Tank Coral Overlay",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/large/Large Coral Background.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 48 },
+         "ToArea": { "X": 0, "Y": 1152, "Width": 128, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Large Fish Tank Background Overlay": "Coral"
+		}
+	},
+	{
+		"LogName" : "Large Fish Tank White Sand Bottom",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/large/Large White Sand Bottom.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 48 },
+         "ToArea": { "X": 0, "Y": 1152, "Width": 128, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Large Fish Tank Bottom": "White Sand"
+		}
+	},
+	{
+		"LogName" : "Large Fish Tank Black Sand Bottom",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/large/Large Black Sand Bottom.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 48 },
+         "ToArea": { "X": 0, "Y": 1152, "Width": 128, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Large Fish Tank Bottom": "Black Sand"
+		}
+	},
+	{
+		"LogName" : "Large Fish Tank Gravel Bottom",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/large/Large Gravel Bottom.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 48 },
+         "ToArea": { "X": 0, "Y": 1152, "Width": 128, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Large Fish Tank Bottom": "Gravel"
+		}
+	},
+	{
+		"LogName" : "Large Fish Tank River Rock Bottom",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/large/Large River Rock Bottom.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 48 },
+         "ToArea": { "X": 0, "Y": 1152, "Width": 128, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Large Fish Tank Bottom": "River Rock"
+		}
+	},
+	{
+		"LogName" : "Large Fish Tank Colored Specks Overlay",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/large/Large Colored Specks.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 48 },
+         "ToArea": { "X": 0, "Y": 1152, "Width": 128, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Large Fish Tank Bottom Overlay": "Colored Specks"
+		}
+	},
+	{
+		"LogName" : "Large Fish Tank Equipment",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/large/Large Equipment.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 48 },
+         "ToArea": { "X": 0, "Y": 1152, "Width": 128, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Large Fish Tank Equipment": "true"
+		}
+	},
+	]
+}

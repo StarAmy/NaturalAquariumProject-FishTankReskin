@@ -1,0 +1,184 @@
+{
+	"Changes": [
+	{
+		"LogName" : "New Small Fish Tank",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/small/Small Fish Tank.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 48 },
+         "ToArea": { "X": 288, "Y": 1152, "Width": 64, "Height": 48 },
+		"PatchMode": "Replace",
+		"When":{ 
+			"Small Fish Tank": "true"
+		}
+	},
+	{
+		"LogName" : "Small Fish Tank Strip Light Top",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/small/Small Strip Light Top.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 48 },
+         "ToArea": { "X": 288, "Y": 1152, "Width": 64, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Small Fish Tank Top": "Strip Light"
+		}
+	},
+	{
+		"LogName" : "Small Fish Tank Full Hood Top",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/small/Small Full Hood Top.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 48 },
+         "ToArea": { "X": 288, "Y": 1152, "Width": 64, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Small Fish Tank Top": "Full Hood"
+		}
+	},
+	{
+		"LogName" : "Small Fish Tank Grey Rock Background",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/small/Small Grey Rock Background.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 48 },
+         "ToArea": { "X": 288, "Y": 1152, "Width": 64, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Small Fish Tank Background": "Grey Rock"
+		}
+	},
+	{
+		"LogName" : "Small Fish Tank Tan Rock Background",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/small/Small Tan Rock Background.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 48 },
+         "ToArea": { "X": 288, "Y": 1152, "Width": 64, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Small Fish Tank Background": "Tan Rock"
+		}
+	},
+	{
+		"LogName" : "Small Fish Tank Red Rock Background",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/small/Small Red Rock Background.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 48 },
+         "ToArea": { "X": 288, "Y": 1152, "Width": 64, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Small Fish Tank Background": "Red Rock"
+		}
+	},
+	{
+		"LogName" : "Small Fish Tank White Rock Background",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/small/Small White Rock Background.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 48 },
+         "ToArea": { "X": 288, "Y": 1152, "Width": 64, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Small Fish Tank Background": "White Rock"
+		}
+	},
+	{
+		"LogName" : "Small Fish Tank Mossy Overlay",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/small/Small Mossy Background.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 48 },
+         "ToArea": { "X": 288, "Y": 1152, "Width": 64, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Small Fish Tank Background Overlay": "Mossy"
+		}
+	},
+	{
+		"LogName" : "Small Fish Tank Coral Background",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/small/Small Coral Background.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 48 },
+         "ToArea": { "X": 288, "Y": 1152, "Width": 64, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Small Fish Tank Background Overlay": "Coral"
+		}
+	},
+	{
+		"LogName" : "Small Fish Tank White Sand Bottom",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/small/Small White Sand Bottom.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 48 },
+         "ToArea": { "X": 288, "Y": 1152, "Width": 64, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Small Fish Tank Bottom": "White Sand"
+		}
+	},
+	{
+		"LogName" : "Small Fish Tank Black Sand Bottom",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/small/Small Black Sand Bottom.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 48 },
+         "ToArea": { "X": 288, "Y": 1152, "Width": 64, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Small Fish Tank Bottom": "Black Sand"
+		}
+	},
+	{
+		"LogName" : "Small Fish Tank Gravel Bottom",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/small/Small Gravel Bottom.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 48 },
+         "ToArea": { "X": 288, "Y": 1152, "Width": 64, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Small Fish Tank Bottom": "Gravel"
+		}
+	},
+	{
+		"LogName" : "Small Fish Tank River Rock Bottom",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/small/Small River Rock Bottom.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 48 },
+         "ToArea": { "X": 288, "Y": 1152, "Width": 64, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Small Fish Tank Bottom": "River Rock"
+		}
+	},
+	{
+		"LogName" : "Small Fish Tank Colored Specks Overlay",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/small/Small Colored Specks.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 48 },
+         "ToArea": { "X": 288, "Y": 1152, "Width": 64, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Small Fish Tank Bottom Overlay": "Colored Specks"
+		}
+	},
+	{
+		"LogName" : "Small Fish Tank Equipment",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/small/Small Equipment.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 48 },
+         "ToArea": { "X": 288, "Y": 1152, "Width": 64, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Small Fish Tank Equipment": "true"
+		}
+	},
+	]
+}

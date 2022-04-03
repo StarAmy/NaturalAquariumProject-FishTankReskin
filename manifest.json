@@ -1,0 +1,11 @@
+{
+  "Name": "Natural Aquarium Project - Fish Tank Reskin",
+  "Author": "StarAmy",
+  "Version": "1.0",
+  "Description": "Adds custom tank skins, substrates, backgrounds, and equipment.",
+  "UniqueID": "StarAmy.FishTankReskin",
+   "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+    "MinimumVersion": "1.20.0"
+   }
+}

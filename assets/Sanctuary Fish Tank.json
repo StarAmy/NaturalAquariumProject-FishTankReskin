@@ -1,0 +1,184 @@
+{
+	"Changes": [
+	{
+		"LogName" : "New Aquatic Sanctuary",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/sanctuary/Sanctuary Fish Tank.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 224, "Height": 48 },
+         "ToArea": { "X": 0, "Y": 1200, "Width": 224, "Height": 48 },
+		"PatchMode": "Replace",
+		"When":{ 
+			"Sanctuary Fish Tank": "true"
+		}
+	},
+	{
+		"LogName" : "Aquatic Sanctuary Strip Light Top",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/sanctuary/Sanctuary Strip Light Top.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 224, "Height": 48 },
+         "ToArea": { "X": 0, "Y": 1200, "Width": 224, "Height": 48 },
+		"PatchMode": "Overlay",
+			"When":{ 
+			"Sanctuary Fish Tank Top": "Strip Light"
+		}
+	},
+	{
+		"LogName" : "Aquatic Sanctuary Full Hood Top",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/sanctuary/Sanctuary Full Hood Top.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 224, "Height": 48 },
+         "ToArea": { "X": 0, "Y": 1200, "Width": 224, "Height": 48 },
+		"PatchMode": "Overlay",
+			"When":{ 
+			"Sanctuary Fish Tank Top": "Full Hood"
+		}
+	},
+	{
+		"LogName" : "Aquatic Sanctuary Grey Rock Background",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/sanctuary/Sanctuary Grey Rock Background.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 224, "Height": 48 },
+         "ToArea": { "X": 0, "Y": 1200, "Width": 224, "Height": 48 },
+		"PatchMode": "Overlay",
+			"When":{ 
+			"Sanctuary Fish Tank Background": "Grey Rock"
+		}
+	},
+	{
+		"LogName" : "Aquatic Sanctuary Tan Rock Background",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/sanctuary/Sanctuary Tan Rock Background.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 224, "Height": 48 },
+         "ToArea": { "X": 0, "Y": 1200, "Width": 224, "Height": 48 },
+		"PatchMode": "Overlay",
+			"When":{ 
+			"Sanctuary Fish Tank Background": "Tan Rock"
+		}
+	},
+	{
+		"LogName" : "Aquatic Sanctuary Red Rock Background",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/sanctuary/Sanctuary Red Rock Background.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 224, "Height": 48 },
+         "ToArea": { "X": 0, "Y": 1200, "Width": 224, "Height": 48 },
+		"PatchMode": "Overlay",
+			"When":{ 
+			"Sanctuary Fish Tank Background": "Red Rock"
+		}
+	},
+	{
+		"LogName" : "Aquatic Sanctuary White Rock Background",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/sanctuary/Sanctuary White Rock Background.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 224, "Height": 48 },
+         "ToArea": { "X": 0, "Y": 1200, "Width": 224, "Height": 48 },
+		"PatchMode": "Overlay",
+			"When":{ 
+			"Sanctuary Fish Tank Background": "White Rock"
+		}
+	},
+	{
+		"LogName" : "Aquatic Sanctuary Mossy Overlay",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/sanctuary/Sanctuary Mossy Background.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 224, "Height": 48 },
+         "ToArea": { "X": 0, "Y": 1200, "Width": 224, "Height": 48 },
+		"PatchMode": "Overlay",
+			"When":{ 
+			"Sanctuary Fish Tank Background Overlay": "Mossy"
+		}
+	},
+	{
+		"LogName" : "Aquatic Sanctuary Coral Overlay",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/sanctuary/Sanctuary Coral Background.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 224, "Height": 48 },
+         "ToArea": { "X": 0, "Y": 1200, "Width": 224, "Height": 48 },
+		"PatchMode": "Overlay",
+			"When":{ 
+			"Sanctuary Fish Tank Background Overlay": "Coral"
+		}
+	},
+	{
+		"LogName" : "Aquatic Sanctuary White Sand Bottom",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/sanctuary/Sanctuary White Sand Bottom.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 224, "Height": 48 },
+         "ToArea": { "X": 0, "Y": 1200, "Width": 224, "Height": 48 },
+		"PatchMode": "Overlay",
+			"When":{ 
+			"Sanctuary Fish Tank Bottom": "White Sand"
+		}
+	},
+	{
+		"LogName" : "Aquatic Sanctuary Black Sand Bottom",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/sanctuary/Sanctuary Black Sand Bottom.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 224, "Height": 48 },
+         "ToArea": { "X": 0, "Y": 1200, "Width": 224, "Height": 48 },
+		"PatchMode": "Overlay",
+			"When":{ 
+			"Sanctuary Fish Tank Bottom": "Black Sand"
+		}
+	},
+	{
+		"LogName" : "Aquatic Sanctuary Gravel Bottom",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/sanctuary/Sanctuary Gravel Bottom.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 224, "Height": 48 },
+         "ToArea": { "X": 0, "Y": 1200, "Width": 224, "Height": 48 },
+		"PatchMode": "Overlay",
+			"When":{ 
+			"Sanctuary Fish Tank Bottom": "Gravel"
+		}
+	},
+	{
+		"LogName" : "Aquatic Sanctuary River Rock Bottom",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/sanctuary/Sanctuary River Rock Bottom.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 224, "Height": 48 },
+         "ToArea": { "X": 0, "Y": 1200, "Width": 224, "Height": 48 },
+		"PatchMode": "Overlay",
+			"When":{ 
+			"Sanctuary Fish Tank Bottom": "River Rock"
+		}
+	},
+	{
+		"LogName" : "Aquatic Sanctuary Colored Specks Overlay",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/sanctuary/Sanctuary Colored Specks.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 224, "Height": 48 },
+         "ToArea": { "X": 0, "Y": 1200, "Width": 224, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Sanctuary Fish Tank Bottom Overlay": "Colored Specks"
+		}
+	},
+	{
+		"LogName" : "Aquatic Sanctuary Equipment",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/sanctuary/Sanctuary Equipment.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 224, "Height": 48 },
+         "ToArea": { "X": 0, "Y": 1200, "Width": 224, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Sanctuary Fish Tank Equipment": "true"
+		}
+	},
+	]
+}

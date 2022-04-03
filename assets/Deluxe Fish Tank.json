@@ -1,0 +1,184 @@
+{
+	"Changes": [
+	{
+		"LogName" : "New Deluxe Fish Tank",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/deluxe/Deluxe Fish Tank.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 160, "Height": 48 },
+         "ToArea": { "X": 128, "Y": 1152, "Width": 160, "Height": 48 },
+		"PatchMode": "Replace",
+		"When":{ 
+			"Deluxe Fish Tank": "true"
+		}
+	},
+	{
+		"LogName" : "Deluxe Fish Tank Strip Light Top",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/deluxe/Deluxe Strip Light Top.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 160, "Height": 48 },
+         "ToArea": { "X": 128, "Y": 1152, "Width": 160, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Deluxe Fish Tank Top": "Strip Light"
+		}
+	},
+	{
+		"LogName" : "Deluxe Fish Tank Full Hood Top",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/deluxe/Deluxe Full Hood Top.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 160, "Height": 48 },
+         "ToArea": { "X": 128, "Y": 1152, "Width": 160, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Deluxe Fish Tank Top": "Full Hood"
+		}
+	},
+	{
+		"LogName" : "Deluxe Fish Tank Grey Rock Background",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/deluxe/Deluxe Grey Rock Background.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 160, "Height": 48 },
+         "ToArea": { "X": 128, "Y": 1152, "Width": 160, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Deluxe Fish Tank Background": "Grey Rock"
+		}
+	},
+	{
+		"LogName" : "Deluxe Fish Tank Tan Rock Background",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/deluxe/Deluxe Tan Rock Background.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 160, "Height": 48 },
+         "ToArea": { "X": 128, "Y": 1152, "Width": 160, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Deluxe Fish Tank Background": "Tan Rock"
+		}
+	},
+	{
+		"LogName" : "Deluxe Fish Tank Red Rock Background",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/deluxe/Deluxe Red Rock Background.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 160, "Height": 48 },
+         "ToArea": { "X": 128, "Y": 1152, "Width": 160, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Deluxe Fish Tank Background": "Red Rock"
+		}
+	},
+	{
+		"LogName" : "Deluxe Fish Tank White Rock Background",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/deluxe/Deluxe White Rock Background.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 160, "Height": 48 },
+         "ToArea": { "X": 128, "Y": 1152, "Width": 160, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Deluxe Fish Tank Background": "White Rock"
+		}
+	},
+	{
+		"LogName" : "Deluxe Fish Tank Mossy Overlay",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/deluxe/Deluxe Mossy Background.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 160, "Height": 48 },
+         "ToArea": { "X": 128, "Y": 1152, "Width": 160, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Deluxe Fish Tank Background Overlay": "Mossy"
+		}
+	},
+	{
+		"LogName" : "Deluxe Fish Tank Coral Background",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/deluxe/Deluxe Coral Background.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 160, "Height": 48 },
+         "ToArea": { "X": 128, "Y": 1152, "Width": 160, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Deluxe Fish Tank Background Overlay": "Coral"
+		}
+	},
+	{
+		"LogName" : "Deluxe Fish Tank White Sand Bottom",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/deluxe/Deluxe White Sand Bottom.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 160, "Height": 48 },
+         "ToArea": { "X": 128, "Y": 1152, "Width": 160, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Deluxe Fish Tank Bottom": "White Sand"
+		}
+	},
+	{
+		"LogName" : "Deluxe Fish Tank Black Sand Bottom",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/deluxe/Deluxe Black Sand Bottom.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 160, "Height": 48 },
+         "ToArea": { "X": 128, "Y": 1152, "Width": 160, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Deluxe Fish Tank Bottom": "Black Sand"
+		}
+	},
+	{
+		"LogName" : "Deluxe Fish Tank Gravel Bottom",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/deluxe/Deluxe Gravel Bottom.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 160, "Height": 48 },
+         "ToArea": { "X": 128, "Y": 1152, "Width": 160, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Deluxe Fish Tank Bottom": "Gravel"
+		}
+	},
+	{
+		"LogName" : "Deluxe Fish Tank River Rock Bottom",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/deluxe/Deluxe River Rock Bottom.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 160, "Height": 48 },
+         "ToArea": { "X": 128, "Y": 1152, "Width": 160, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Deluxe Fish Tank Bottom": "River Rock"
+		}
+	},
+	{
+		"LogName" : "Deluxe Fish Tank Colored Specks Overlay",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/deluxe/Deluxe Colored Specks.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 160, "Height": 48 },
+         "ToArea": { "X": 128, "Y": 1152, "Width": 160, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Deluxe Fish Tank Bottom Overlay": "Colored Specks"
+		}
+	},
+	{
+		"LogName" : "Deluxe Fish Tank Equipment",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/deluxe/Deluxe Equipment.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 160, "Height": 48 },
+         "ToArea": { "X": 128, "Y": 1152, "Width": 160, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Deluxe Fish Tank Equipment": "true"
+		}
+	},
+	]
+}

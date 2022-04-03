@@ -1,0 +1,174 @@
+{
+    "Format": "1.23.0",
+      "ConfigSchema": {
+        "Small Fish Tank": {
+            "AllowValues": "true, false",
+            "Default": "true"
+        },
+        "Small Fish Tank Top": {
+            "AllowValues": "None, Strip Light, Full Hood",
+            "Default": "None"
+        },
+         "Small Fish Tank Background": {
+            "AllowValues": "None, Grey Rock, Tan Rock, White Rock, Red Rock",
+            "Default": "None"
+        },
+         "Small Fish Tank Background Overlay": {
+            "AllowValues": "None, Mossy, Coral",
+            "Default": "None"
+        },
+        "Small Fish Tank Bottom": {
+            "AllowValues": "Sand, White Sand, Black Sand, Gravel, River Rock",
+            "Default": "Sand"
+        },
+        "Small Fish Tank Bottom Overlay": {
+            "AllowValues": "None, Colored Specks",
+            "Default": "None"
+        },
+        "Small Fish Tank Equipment": {
+            "AllowValues": "true, false",
+            "Default": "false"
+        },
+        "Large Fish Tank": {
+            "AllowValues": "true, false",
+            "Default": "true"
+        },
+        "Large Fish Tank Top": {
+            "AllowValues": "None, Strip Light, Full Hood",
+            "Default": "None"
+        },
+         "Large Fish Tank Background": {
+            "AllowValues": "None, Grey Rock, Tan Rock, White Rock, Red Rock",
+            "Default": "None"
+        },
+         "Large Fish Tank Background Overlay": {
+            "AllowValues": "None, Mossy, Coral",
+            "Default": "None"
+        },
+        "Large Fish Tank Bottom": {
+            "AllowValues": "Sand, White Sand, Black Sand, Gravel, River Rock",
+            "Default": "Sand"
+        },
+        "Large Fish Tank Bottom Overlay": {
+            "AllowValues": "None, Colored Specks",
+            "Default": "None"
+        },
+        "Large Fish Tank Equipment": {
+            "AllowValues": "true, false",
+            "Default": "false"
+        },
+        "Deluxe Fish Tank": {
+            "AllowValues": "true, false",
+            "Default": "true"
+        },
+        "Deluxe Fish Tank Top": {
+            "AllowValues": "None, Strip Light, Full Hood",
+            "Default": "None"
+        },
+         "Deluxe Fish Tank Background": {
+            "AllowValues": "None, Grey Rock, Tan Rock, White Rock, Red Rock",
+            "Default": "None"
+        },
+         "Deluxe Fish Tank Background Overlay": {
+            "AllowValues": "None, Mossy, Coral",
+            "Default": "None"
+        },
+        "Deluxe Fish Tank Bottom": {
+            "AllowValues": "Sand, White Sand, Black Sand, Gravel, River Rock",
+            "Default": "Sand"
+        },
+        "Deluxe Fish Tank Bottom Overlay": {
+            "AllowValues": "None, Colored Specks",
+            "Default": "None"
+        },
+        "Deluxe Fish Tank Equipment": {
+            "AllowValues": "true, false",
+            "Default": "false"
+        },
+        "Sanctuary Fish Tank": {
+            "AllowValues": "true, false",
+            "Default": "true"
+        },
+        "Sanctuary Fish Tank Top": {
+            "AllowValues": "None, Strip Light, Full Hood",
+            "Default": "None"
+        },
+         "Sanctuary Fish Tank Background": {
+            "AllowValues": "None, Grey Rock, Tan Rock, White Rock, Red Rock",
+            "Default": "None"
+        },
+         "Sanctuary Fish Tank Background Overlay": {
+            "AllowValues": "None, Mossy, Coral",
+            "Default": "None"
+        },
+        "Sanctuary Fish Tank Bottom": {
+            "AllowValues": "Sand, White Sand, Black Sand, Gravel, River Rock",
+            "Default": "Sand"
+        },
+        "Sanctuary Fish Tank Bottom Overlay": {
+            "AllowValues": "None, Colored Specks",
+            "Default": "None"
+        },
+        "Sanctuary Fish Tank Equipment": {
+            "AllowValues": "true, false",
+            "Default": "false"
+        },
+        "Modern Fish Tank": {
+            "AllowValues": "true, false",
+            "Default": "true"
+        },
+        "Modern Fish Tank Top": {
+            "AllowValues": "None, Strip Light, Full Hood",
+            "Default": "None"
+        },
+        "Modern Fish Tank Bottom": {
+            "AllowValues": "Sand, White Sand, Black Sand, Gravel, River Rock",
+            "Default": "Sand"
+        },
+        "Modern Fish Tank Bottom Overlay": {
+            "AllowValues": "None, Colored Specks",
+            "Default": "None"
+        },
+        "Modern Fish Tank Equipment": {
+            "AllowValues": "true, false",
+            "Default": "false"
+        },
+    },
+    "Changes": [
+    {
+        "Action": "Include",
+        "FromFile": "assets/Small Fish Tank.json",
+        "When": {
+            "Small Fish Tank": true,
+            }
+    },
+    {
+        "Action": "Include",
+        "FromFile": "assets/Large Fish Tank.json",
+        "When": {
+            "Large Fish Tank": true,
+            }
+    },
+    {
+        "Action": "Include",
+        "FromFile": "assets/Deluxe Fish Tank.json",
+        "When": {
+            "Deluxe Fish Tank": true,
+            }
+    },
+    {
+        "Action": "Include",
+        "FromFile": "assets/Sanctuary Fish Tank.json",
+        "When": {
+            "Sanctuary Fish Tank": true,
+            }
+    },
+    {
+        "Action": "Include",
+        "FromFile": "assets/Modern Fish Tank.json",
+        "When": {
+            "Modern Fish Tank": true,
+            }
+    },
+    ]
+}
