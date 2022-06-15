@@ -1,9 +1,9 @@
 {
     "Format": "1.23.0",
       "ConfigSchema": {
-         "Tank Bubbles": {
-            "AllowValues": "On, Off",
-            "Default": "On"
+         "Tank Bubbles On": {
+            "AllowValues": "True, False",
+            "Default": "True"
         },
         "Small Fish Tank": {
             "AllowValues": "Original, Tank, Cage",
@@ -171,7 +171,7 @@
          },
         "PatchMode": "Replace",
         "When":{ 
-            "Tank Bubbles": "Off"
+            "Tank Bubbles On": "False"
         }
       },
     ]

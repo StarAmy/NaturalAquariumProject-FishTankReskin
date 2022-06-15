@@ -1,8 +1,8 @@
 {
-  "Tank Bubbles": "On",
+  "Tank Bubbles On": "true",
   "Small Fish Tank": "Tank",
-  "Small Fish Tank Top": "Floating Plants",
-  "Small Fish Tank Background": "Black",
+  "Small Fish Tank Top": "None",
+  "Small Fish Tank Background": "None",
   "Small Fish Tank Background Overlay": "None",
   "Small Fish Tank Bottom": "Sand",
   "Small Fish Tank Bottom Overlay": "None",
