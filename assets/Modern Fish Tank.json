@@ -9,7 +9,19 @@
          "ToArea": { "X": 224, "Y": 1200, "Width": 64, "Height": 48 },
 		"PatchMode": "Replace",
 		"When":{ 
-			"Modern Fish Tank": "True"
+			"Modern Fish Tank": "Tank"
+		}
+	},
+		{
+		"LogName" : "New Modern Cage",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/modern/Modern Cage.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 48 },
+         "ToArea": { "X": 224, "Y": 1200, "Width": 64, "Height": 48 },
+		"PatchMode": "Replace",
+		"When":{ 
+			"Modern Fish Tank": "Cage"
 		}
 	},
 	{
@@ -34,6 +46,18 @@
 		"PatchMode": "Overlay",
 		"When":{ 
 			"Modern Fish Tank Top": "Full Hood"
+		}
+	},
+	{
+		"LogName" : "Modern Fish Tank Floating Plants Top",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/modern/Modern Floating Plants Top.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 48 },
+         "ToArea": { "X": 224, "Y": 1200, "Width": 64, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Modern Fish Tank Top": "Floating Plants"
 		}
 	},
 	{
@@ -84,6 +108,51 @@
 			"Modern Fish Tank Bottom": "River Rock"
 		}
 	},
+		{
+		"LogName" : "Modern Fish Tank Red Sand Bottom",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/modern/Modern Red Sand Bottom.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 48 },
+         "ToArea": { "X": 224, "Y": 1200, "Width": 64, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Modern Fish Tank Bottom": "Red Sand"
+		}
+	},	{
+		"LogName" : "Modern Fish Tank Straw Bottom",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/modern/Modern Straw Bottom.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 48 },
+         "ToArea": { "X": 224, "Y": 1200, "Width": 64, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Modern Fish Tank Bottom": "Straw"
+		}
+	},	{
+		"LogName" : "Modern Fish Tank Shavings Bottom",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/modern/Modern Shavings Bottom.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 48 },
+         "ToArea": { "X": 224, "Y": 1200, "Width": 64, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Modern Fish Tank Bottom": "Shavings"
+		}
+	},	{
+		"LogName" : "Modern Fish Tank Dirt Bottom",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/modern/Modern Dirt Bottom.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 48 },
+         "ToArea": { "X": 224, "Y": 1200, "Width": 64, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Modern Fish Tank Bottom": "Dirt"
+		}
+	},
 	{
 		"LogName" : "Modern Fish Tank Colored Specks Overlay",
          "Action": "EditImage",
@@ -96,16 +165,76 @@
 			"Modern Fish Tank Bottom Overlay": "Colored Specks"
 		}
 	},
-	{
-		"LogName" : "Modern Fish Tank Equipment",
+		{
+		"LogName" : "Modern Fish Tank Puddle Overlay",
          "Action": "EditImage",
          "Target": "TileSheets/furniture",
-         "FromFile": "assets/modern/Modern Equipment.png",
+         "FromFile": "assets/modern/Modern Puddle Overlay.png",
          "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 48 },
          "ToArea": { "X": 224, "Y": 1200, "Width": 64, "Height": 48 },
 		"PatchMode": "Overlay",
 		"When":{ 
-			"Modern Fish Tank Equipment": "True"
+			"Modern Fish Tank Bottom Overlay": "Puddle"
+		}
+	},
+	{
+		"LogName" : "Modern Fish Tank Equipment",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/modern/Modern Fish Equipment.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 48 },
+         "ToArea": { "X": 224, "Y": 1200, "Width": 64, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Modern Fish Tank Equipment": "Fish Equipment"
+		}
+	},
+	{
+		"LogName" : "Modern Rodent Equipment",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/modern/Modern Rodent Equipment.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 48 },
+         "ToArea": { "X": 224, "Y": 1200, "Width": 64, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Modern Fish Tank Equipment": "Rodent Equipment"
+		}
+	},
+	{
+		"LogName" : "Modern Heat Lamp",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/modern/Modern Heat Lamp.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 48 },
+         "ToArea": { "X": 224, "Y": 1200, "Width": 64, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Modern Fish Tank Equipment": "Heat Lamp"
+		}
+	},
+	{
+		"LogName" : "Modern Hanging Bird Toys",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/modern/Modern Hanging Bird Toys.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 48 },
+         "ToArea": { "X": 224, "Y": 1200, "Width": 64, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Modern Fish Tank Equipment": "Hanging Bird Toys"
+		}
+	},
+	{
+		"LogName" : "Modern Hanging Nectar Feeder",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/modern/Modern Hanging Nectar Feeder.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 48 },
+         "ToArea": { "X": 224, "Y": 1200, "Width": 64, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Modern Fish Tank Equipment": "Hanging Nectar Feeder"
 		}
 	},
 	]

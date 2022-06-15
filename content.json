@@ -1,174 +1,178 @@
 {
     "Format": "1.23.0",
       "ConfigSchema": {
+         "Tank Bubbles": {
+            "AllowValues": "On, Off",
+            "Default": "On"
+        },
         "Small Fish Tank": {
-            "AllowValues": "true, false",
-            "Default": "true"
+            "AllowValues": "Original, Tank, Cage",
+            "Default": "Original"
         },
         "Small Fish Tank Top": {
-            "AllowValues": "None, Strip Light, Full Hood",
+            "AllowValues": "None, Strip Light, Full Hood, Floating Plants",
             "Default": "None"
         },
          "Small Fish Tank Background": {
-            "AllowValues": "None, Grey Rock, Tan Rock, White Rock, Red Rock",
+            "AllowValues": "None, Grey Rock, Tan Rock, White Rock, Red Rock, Black",
             "Default": "None"
         },
          "Small Fish Tank Background Overlay": {
-            "AllowValues": "None, Mossy, Coral",
+            "AllowValues": "None, Mossy, Coral, Tropical Vines",
             "Default": "None"
         },
         "Small Fish Tank Bottom": {
-            "AllowValues": "Sand, White Sand, Black Sand, Gravel, River Rock",
+            "AllowValues": "Sand, White Sand, Black Sand, Gravel, River Rock, Red Sand, Dirt, Shavings, Straw",
             "Default": "Sand"
         },
         "Small Fish Tank Bottom Overlay": {
-            "AllowValues": "None, Colored Specks",
+            "AllowValues": "None, Colored Specks, Puddle",
             "Default": "None"
         },
         "Small Fish Tank Equipment": {
-            "AllowValues": "true, false",
-            "Default": "false"
+            "AllowValues": "None, Fish Equipment, Rodent Equipment, Hanging Nectar Feeder, Heat Lamp, Hanging Bird Toys",
+            "Default": "None"
         },
         "Large Fish Tank": {
-            "AllowValues": "true, false",
-            "Default": "true"
+            "AllowValues": "Original, Tank, Cage",
+            "Default": "Original"
         },
         "Large Fish Tank Top": {
-            "AllowValues": "None, Strip Light, Full Hood",
+            "AllowValues": "None, Strip Light, Full Hood, Floating Plants",
             "Default": "None"
         },
          "Large Fish Tank Background": {
-            "AllowValues": "None, Grey Rock, Tan Rock, White Rock, Red Rock",
+            "AllowValues": "None, Grey Rock, Tan Rock, White Rock, Red Rock, Black",
             "Default": "None"
         },
          "Large Fish Tank Background Overlay": {
-            "AllowValues": "None, Mossy, Coral",
+            "AllowValues": "None, Mossy, Coral, Tropical Vines",
             "Default": "None"
         },
         "Large Fish Tank Bottom": {
-            "AllowValues": "Sand, White Sand, Black Sand, Gravel, River Rock",
+            "AllowValues": "Sand, White Sand, Black Sand, Gravel, River Rock, Red Sand, Dirt, Shavings, Straw",
             "Default": "Sand"
         },
         "Large Fish Tank Bottom Overlay": {
-            "AllowValues": "None, Colored Specks",
+            "AllowValues": "None, Colored Specks, Puddle",
             "Default": "None"
         },
         "Large Fish Tank Equipment": {
-            "AllowValues": "true, false",
-            "Default": "false"
+            "AllowValues": "None, Fish Equipment, Rodent Equipment, Hanging Nectar Feeder, Heat Lamp, Hanging Bird Toys",
+            "Default": "None"
         },
         "Deluxe Fish Tank": {
-            "AllowValues": "true, false",
-            "Default": "true"
+            "AllowValues": "Original, Tank, Cage",
+            "Default": "Original"
         },
         "Deluxe Fish Tank Top": {
-            "AllowValues": "None, Strip Light, Full Hood",
+            "AllowValues": "None, Strip Light, Full Hood, Floating Plants",
             "Default": "None"
         },
          "Deluxe Fish Tank Background": {
-            "AllowValues": "None, Grey Rock, Tan Rock, White Rock, Red Rock",
+            "AllowValues": "None, Grey Rock, Tan Rock, White Rock, Red Rock, Black",
             "Default": "None"
         },
          "Deluxe Fish Tank Background Overlay": {
-            "AllowValues": "None, Mossy, Coral",
+            "AllowValues": "None, Mossy, Coral, Tropical Vines",
             "Default": "None"
         },
         "Deluxe Fish Tank Bottom": {
-            "AllowValues": "Sand, White Sand, Black Sand, Gravel, River Rock",
+            "AllowValues": "Sand, White Sand, Black Sand, Gravel, River Rock, Red Sand, Dirt, Shavings, Straw",
             "Default": "Sand"
         },
         "Deluxe Fish Tank Bottom Overlay": {
-            "AllowValues": "None, Colored Specks",
+            "AllowValues": "None, Colored Specks, Puddle",
             "Default": "None"
         },
         "Deluxe Fish Tank Equipment": {
-            "AllowValues": "true, false",
-            "Default": "false"
+            "AllowValues": "None, Fish Equipment, Rodent Equipment, Hanging Nectar Feeder, Heat Lamp, Hanging Bird Toys",
+            "Default": "None"
         },
         "Sanctuary Fish Tank": {
-            "AllowValues": "true, false",
-            "Default": "true"
+            "AllowValues": "Original, Tank, Cage",
+            "Default": "Original"
         },
         "Sanctuary Fish Tank Top": {
-            "AllowValues": "None, Strip Light, Full Hood",
+            "AllowValues": "None, Strip Light, Full Hood, Floating Plants",
             "Default": "None"
         },
          "Sanctuary Fish Tank Background": {
-            "AllowValues": "None, Grey Rock, Tan Rock, White Rock, Red Rock",
+            "AllowValues": "None, Grey Rock, Tan Rock, White Rock, Red Rock, Black",
             "Default": "None"
         },
          "Sanctuary Fish Tank Background Overlay": {
-            "AllowValues": "None, Mossy, Coral",
+            "AllowValues": "None, Mossy, Coral, Tropical Vines",
             "Default": "None"
         },
         "Sanctuary Fish Tank Bottom": {
-            "AllowValues": "Sand, White Sand, Black Sand, Gravel, River Rock",
+            "AllowValues": "Sand, White Sand, Red Sand, Black Sand, Gravel, River Rock, Dirt, Shavings, Straw",
             "Default": "Sand"
         },
         "Sanctuary Fish Tank Bottom Overlay": {
-            "AllowValues": "None, Colored Specks",
+            "AllowValues": "None, Colored Specks, Puddle",
             "Default": "None"
         },
         "Sanctuary Fish Tank Equipment": {
-            "AllowValues": "true, false",
-            "Default": "false"
+            "AllowValues": "None, Fish Equipment, Rodent Equipment, Hanging Nectar Feeder, Heat Lamp, Hanging Bird Toys",
+            "Default": "None"
         },
         "Modern Fish Tank": {
-            "AllowValues": "true, false",
-            "Default": "true"
+            "AllowValues": "Original, Tank, Cage",
+            "Default": "Original"
         },
         "Modern Fish Tank Top": {
-            "AllowValues": "None, Strip Light, Full Hood",
+            "AllowValues": "None, Strip Light, Full Hood, Floating Plants",
             "Default": "None"
         },
         "Modern Fish Tank Bottom": {
-            "AllowValues": "Sand, White Sand, Black Sand, Gravel, River Rock",
+            "AllowValues": "Sand, White Sand, Black Sand, Gravel, River Rock, Red Sand, Dirt, Shavings, Straw",
             "Default": "Sand"
         },
         "Modern Fish Tank Bottom Overlay": {
-            "AllowValues": "None, Colored Specks",
+            "AllowValues": "None, Colored Specks, Puddle",
             "Default": "None"
         },
         "Modern Fish Tank Equipment": {
-            "AllowValues": "true, false",
-            "Default": "false"
+            "AllowValues": "None, Fish Equipment, Rodent Equipment, Hanging Nectar Feeder, Heat Lamp, Hanging Bird Toys",
+            "Default": "None"
         },
     },
     "Changes": [
     {
         "Action": "Include",
         "FromFile": "assets/Small Fish Tank.json",
-        "When": {
-            "Small Fish Tank": true,
-            }
     },
     {
         "Action": "Include",
         "FromFile": "assets/Large Fish Tank.json",
-        "When": {
-            "Large Fish Tank": true,
-            }
     },
     {
         "Action": "Include",
         "FromFile": "assets/Deluxe Fish Tank.json",
-        "When": {
-            "Deluxe Fish Tank": true,
-            }
     },
     {
         "Action": "Include",
         "FromFile": "assets/Sanctuary Fish Tank.json",
-        "When": {
-            "Sanctuary Fish Tank": true,
-            }
     },
     {
         "Action": "Include",
         "FromFile": "assets/Modern Fish Tank.json",
-        "When": {
-            "Modern Fish Tank": true,
-            }
     },
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/AquariumFish",
+      "FromFile": "assets/bubble_cover.png",
+      "ToArea": {
+         "X": 0,
+         "Y": 240,
+         "Width": 16,
+         "Height": 16
+         },
+        "PatchMode": "Replace",
+        "When":{ 
+            "Tank Bubbles": "Off"
+        }
+      },
     ]
 }

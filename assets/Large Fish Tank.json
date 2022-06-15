@@ -9,7 +9,19 @@
          "ToArea": { "X": 0, "Y": 1152, "Width": 128, "Height": 48 },
 		"PatchMode": "Replace",
 		"When":{ 
-			"Large Fish Tank": "true"
+			"Large Fish Tank": "Tank"
+		}
+	},
+		{
+		"LogName" : "New Large Cage",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/large/Large Cage.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 48 },
+         "ToArea": { "X": 0, "Y": 1152, "Width": 128, "Height": 48 },
+		"PatchMode": "Replace",
+		"When":{ 
+			"Large Fish Tank": "Cage"
 		}
 	},
 	{
@@ -34,6 +46,18 @@
 		"PatchMode": "Overlay",
 		"When":{ 
 			"Large Fish Tank Top": "Full Hood"
+		}
+	},
+		{
+		"LogName" : "Large Fish Tank Floating Plants Top",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/large/Large Floating Plants Top.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 48 },
+         "ToArea": { "X": 0, "Y": 1152, "Width": 128, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Large Fish Tank Top": "Floating Plants"
 		}
 	},
 	{
@@ -82,6 +106,30 @@
 		"PatchMode": "Overlay",
 		"When":{ 
 			"Large Fish Tank Background": "Red Rock"
+		}
+	},
+	{
+		"LogName" : "Large Fish Tank Black Background",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/large/Large Black Background.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 48 },
+         "ToArea": { "X": 0, "Y": 1152, "Width": 128, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Large Fish Tank Background": "Black"
+		}
+	},
+		{
+		"LogName" : "Large Fish Tropical Vines Background Overlay",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/large/Large Tropical Vines.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 48 },
+         "ToArea": { "X": 0, "Y": 1152, "Width": 128, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Large Fish Tank Background Overlay": "Tropical Vines"
 		}
 	},
 	{
@@ -157,6 +205,54 @@
 		}
 	},
 	{
+		"LogName" : "Large Fish Tank Straw Bottom",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/large/Large Straw Bottom.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 48 },
+         "ToArea": { "X": 0, "Y": 1152, "Width": 128, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Large Fish Tank Bottom": "Straw"
+		}
+	},
+	{
+		"LogName" : "Large Fish Tank Dirt Bottom",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/large/Large Dirt Bottom.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 48 },
+         "ToArea": { "X": 0, "Y": 1152, "Width": 128, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Large Fish Tank Bottom": "Dirt"
+		}
+	},
+	{
+		"LogName" : "Large Fish Tank Shavings Bottom",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/large/Large Shavings Bottom.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 48 },
+         "ToArea": { "X": 0, "Y": 1152, "Width": 128, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Large Fish Tank Bottom": "Shavings"
+		}
+	},
+	{
+		"LogName" : "Large Fish Tank Red Sand Bottom",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/large/Large Red Sand Bottom.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 48 },
+         "ToArea": { "X": 0, "Y": 1152, "Width": 128, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Large Fish Tank Bottom": "Red Sand"
+		}
+	},
+	{
 		"LogName" : "Large Fish Tank Colored Specks Overlay",
          "Action": "EditImage",
          "Target": "TileSheets/furniture",
@@ -168,16 +264,76 @@
 			"Large Fish Tank Bottom Overlay": "Colored Specks"
 		}
 	},
-	{
-		"LogName" : "Large Fish Tank Equipment",
+		{
+		"LogName" : "Large Fish Tank Puddle Overlay",
          "Action": "EditImage",
          "Target": "TileSheets/furniture",
-         "FromFile": "assets/large/Large Equipment.png",
+         "FromFile": "assets/large/Large Puddle Overlay.png",
          "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 48 },
          "ToArea": { "X": 0, "Y": 1152, "Width": 128, "Height": 48 },
 		"PatchMode": "Overlay",
 		"When":{ 
-			"Large Fish Tank Equipment": "true"
+			"Large Fish Tank Bottom Overlay": "Puddle"
+		}
+	},
+	{
+		"LogName" : "Large Fish Tank Equipment",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/large/Large Fish Equipment.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 48 },
+         "ToArea": { "X": 0, "Y": 1152, "Width": 128, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Large Fish Tank Equipment": "Fish Equipment"
+		}
+	},
+	{
+		"LogName" : "Large Rodent Equipment",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/large/Large Rodent Equipment.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 48 },
+         "ToArea": { "X": 0, "Y": 1152, "Width": 128, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Large Fish Tank Equipment": "Rodent Equipment"
+		}
+	},
+	{
+		"LogName" : "Large Hanging Bird Toys",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/large/Large Hanging Bird Toys.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 48 },
+         "ToArea": { "X": 0, "Y": 1152, "Width": 128, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Large Fish Tank Equipment": "Hanging Bird Toys"
+		}
+	},
+	{
+		"LogName" : "Large Heat Lamp",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/large/Large Heat Lamp.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 48 },
+         "ToArea": { "X": 0, "Y": 1152, "Width": 128, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Large Fish Tank Equipment": "Heat Lamp"
+		}
+	},
+	{
+		"LogName" : "Large Hanging Nectar Feeder",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/large/Large Hanging Nectar Feeder.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 48 },
+         "ToArea": { "X": 0, "Y": 1152, "Width": 128, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Large Fish Tank Equipment": "Hanging Nectar Feeder"
 		}
 	},
 	]

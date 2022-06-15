@@ -9,7 +9,19 @@
          "ToArea": { "X": 0, "Y": 1200, "Width": 224, "Height": 48 },
 		"PatchMode": "Replace",
 		"When":{ 
-			"Sanctuary Fish Tank": "true"
+			"Sanctuary Fish Tank": "Tank"
+		}
+	},
+	{
+		"LogName" : "New Cage Sanctuary",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/sanctuary/Sanctuary Cage.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 224, "Height": 48 },
+         "ToArea": { "X": 0, "Y": 1200, "Width": 224, "Height": 48 },
+		"PatchMode": "Replace",
+		"When":{ 
+			"Sanctuary Fish Tank": "Cage"
 		}
 	},
 	{
@@ -34,6 +46,18 @@
 		"PatchMode": "Overlay",
 			"When":{ 
 			"Sanctuary Fish Tank Top": "Full Hood"
+		}
+	},
+	{
+		"LogName" : "Aquatic Sanctuary Floating Plants Top",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/sanctuary/Sanctuary Floating Plants Top.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 224, "Height": 48 },
+         "ToArea": { "X": 0, "Y": 1200, "Width": 224, "Height": 48 },
+		"PatchMode": "Overlay",
+			"When":{ 
+			"Sanctuary Fish Tank Top": "Floating Plants"
 		}
 	},
 	{
@@ -85,12 +109,23 @@
 		}
 	},
 	{
+		"LogName" : "Aquatic Sanctuary Black Background",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/sanctuary/Sanctuary Black Background.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 224, "Height": 48 },
+         "ToArea": { "X": 0, "Y": 1200, "Width": 224, "Height": 48 },
+		"PatchMode": "Overlay",
+			"When":{ 
+			"Sanctuary Fish Tank Background": "Black"
+		}
+	},
+	{
 		"LogName" : "Aquatic Sanctuary Mossy Overlay",
          "Action": "EditImage",
          "Target": "TileSheets/furniture",
          "FromFile": "assets/sanctuary/Sanctuary Mossy Background.png",
-         "FromArea": { "X": 0, "Y": 0, "Width": 224, "Height": 48 },
-         "ToArea": { "X": 0, "Y": 1200, "Width": 224, "Height": 48 },
+           "ToArea": { "X": 0, "Y": 1200, "Width": 224, "Height": 48 },
 		"PatchMode": "Overlay",
 			"When":{ 
 			"Sanctuary Fish Tank Background Overlay": "Mossy"
@@ -106,6 +141,18 @@
 		"PatchMode": "Overlay",
 			"When":{ 
 			"Sanctuary Fish Tank Background Overlay": "Coral"
+		}
+	},
+	{
+		"LogName" : "Aquatic Sanctuary Vines Overlay",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/sanctuary/Sanctuary Tropical Vines Background.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 224, "Height": 48 },
+         "ToArea": { "X": 0, "Y": 1200, "Width": 224, "Height": 48 },
+		"PatchMode": "Overlay",
+			"When":{ 
+			"Sanctuary Fish Tank Background Overlay": "Tropical Vines"
 		}
 	},
 	{
@@ -157,6 +204,54 @@
 		}
 	},
 	{
+		"LogName" : "Aquatic Sanctuary Red Sand Bottom",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/sanctuary/Sanctuary Red Sand Bottom.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 224, "Height": 48 },
+         "ToArea": { "X": 0, "Y": 1200, "Width": 224, "Height": 48 },
+		"PatchMode": "Overlay",
+			"When":{ 
+			"Sanctuary Fish Tank Bottom": "Red Sand"
+		}
+	},
+	{
+		"LogName" : "Aquatic Sanctuary Shavings Bottom",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/sanctuary/Sanctuary Shavings Bottom.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 224, "Height": 48 },
+         "ToArea": { "X": 0, "Y": 1200, "Width": 224, "Height": 48 },
+		"PatchMode": "Overlay",
+			"When":{ 
+			"Sanctuary Fish Tank Bottom": "Shavings"
+		}
+	},
+	{
+		"LogName" : "Aquatic Sanctuary Straw Bottom",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/sanctuary/Sanctuary Straw Bottom.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 224, "Height": 48 },
+         "ToArea": { "X": 0, "Y": 1200, "Width": 224, "Height": 48 },
+		"PatchMode": "Overlay",
+			"When":{ 
+			"Sanctuary Fish Tank Bottom": "Straw"
+		}
+	},
+	{
+		"LogName" : "Aquatic Sanctuary Dirt Bottom",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/sanctuary/Sanctuary Dirt Bottom.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 224, "Height": 48 },
+         "ToArea": { "X": 0, "Y": 1200, "Width": 224, "Height": 48 },
+		"PatchMode": "Overlay",
+			"When":{ 
+			"Sanctuary Fish Tank Bottom": "Dirt"
+		}
+	},
+	{
 		"LogName" : "Aquatic Sanctuary Colored Specks Overlay",
          "Action": "EditImage",
          "Target": "TileSheets/furniture",
@@ -168,16 +263,76 @@
 			"Sanctuary Fish Tank Bottom Overlay": "Colored Specks"
 		}
 	},
-	{
-		"LogName" : "Aquatic Sanctuary Equipment",
+		{
+		"LogName" : "Aquatic Sanctuary Puddle Overlay",
          "Action": "EditImage",
          "Target": "TileSheets/furniture",
-         "FromFile": "assets/sanctuary/Sanctuary Equipment.png",
+         "FromFile": "assets/sanctuary/Sanctuary Puddle Overlay.png",
          "FromArea": { "X": 0, "Y": 0, "Width": 224, "Height": 48 },
          "ToArea": { "X": 0, "Y": 1200, "Width": 224, "Height": 48 },
 		"PatchMode": "Overlay",
 		"When":{ 
-			"Sanctuary Fish Tank Equipment": "true"
+			"Sanctuary Fish Tank Bottom Overlay": "Puddle"
+		}
+	},
+	{
+		"LogName" : "Aquatic Sanctuary Fish Equipment",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/sanctuary/Sanctuary Fish Equipment.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 224, "Height": 48 },
+         "ToArea": { "X": 0, "Y": 1200, "Width": 224, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Sanctuary Fish Tank Equipment": "Fish Equipment"
+		}
+	},
+	{
+		"LogName" : "Aquatic Sanctuary Rodent Equipment",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/sanctuary/Sanctuary Rodent Equipment.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 224, "Height": 48 },
+         "ToArea": { "X": 0, "Y": 1200, "Width": 224, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Sanctuary Fish Tank Equipment": "Rodent Equipment"
+		}
+	},
+	{
+		"LogName" : "Aquatic Sanctuary Heat Lamp",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/sanctuary/Sanctuary Heat Lamp.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 224, "Height": 48 },
+         "ToArea": { "X": 0, "Y": 1200, "Width": 224, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Sanctuary Fish Tank Equipment": "Heat Lamp"
+		}
+	},
+	{
+		"LogName" : "Aquatic Sanctuary Bird Equipment",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/sanctuary/Sanctuary Hanging Bird Toys.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 224, "Height": 48 },
+         "ToArea": { "X": 0, "Y": 1200, "Width": 224, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Sanctuary Fish Tank Equipment": "Hanging Bird Toys"
+		}
+	},
+	{
+		"LogName" : "Aquatic Sanctuary Hanging Nectar Feeder",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/sanctuary/Sanctuary Hanging Nectar Feeder.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 224, "Height": 48 },
+         "ToArea": { "X": 0, "Y": 1200, "Width": 224, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Sanctuary Fish Tank Equipment": "Hanging Nectar Feeder"
 		}
 	},
 	]

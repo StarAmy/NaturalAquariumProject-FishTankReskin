@@ -9,7 +9,19 @@
          "ToArea": { "X": 128, "Y": 1152, "Width": 160, "Height": 48 },
 		"PatchMode": "Replace",
 		"When":{ 
-			"Deluxe Fish Tank": "true"
+			"Deluxe Fish Tank": "Tank"
+		}
+	},
+		{
+		"LogName" : "New Deluxe Cage",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/deluxe/Deluxe Cage.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 160, "Height": 48 },
+         "ToArea": { "X": 128, "Y": 1152, "Width": 160, "Height": 48 },
+		"PatchMode": "Replace",
+		"When":{ 
+			"Deluxe Fish Tank": "Cage"
 		}
 	},
 	{
@@ -34,6 +46,18 @@
 		"PatchMode": "Overlay",
 		"When":{ 
 			"Deluxe Fish Tank Top": "Full Hood"
+		}
+	},
+	{
+		"LogName" : "Deluxe Fish Tank Floating Plants Top",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/deluxe/Deluxe Floating Plants Top.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 160, "Height": 48 },
+         "ToArea": { "X": 128, "Y": 1152, "Width": 160, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Deluxe Fish Tank Top": "Floating Plants"
 		}
 	},
 	{
@@ -85,6 +109,18 @@
 		}
 	},
 	{
+		"LogName" : "Deluxe Fish Tank Black Background",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/deluxe/Deluxe Black Background.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 160, "Height": 48 },
+         "ToArea": { "X": 128, "Y": 1152, "Width": 160, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Deluxe Fish Tank Background": "Black"
+		}
+	},
+	{
 		"LogName" : "Deluxe Fish Tank Mossy Overlay",
          "Action": "EditImage",
          "Target": "TileSheets/furniture",
@@ -94,6 +130,18 @@
 		"PatchMode": "Overlay",
 		"When":{ 
 			"Deluxe Fish Tank Background Overlay": "Mossy"
+		}
+	},
+		{
+		"LogName" : "Deluxe Fish Tropical Vines Overlay",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/deluxe/Deluxe Tropical Vines.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 160, "Height": 48 },
+         "ToArea": { "X": 128, "Y": 1152, "Width": 160, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Deluxe Fish Tank Background Overlay": "Tropical Vines"
 		}
 	},
 	{
@@ -157,6 +205,54 @@
 		}
 	},
 	{
+		"LogName" : "Deluxe Fish Tank Straw Bottom",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/deluxe/Deluxe Straw Bottom.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 160, "Height": 48 },
+         "ToArea": { "X": 128, "Y": 1152, "Width": 160, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Deluxe Fish Tank Bottom": "Straw"
+		}
+	},
+	{
+		"LogName" : "Deluxe Fish Tank Dirt Bottom",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/deluxe/Deluxe Dirt Bottom.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 160, "Height": 48 },
+         "ToArea": { "X": 128, "Y": 1152, "Width": 160, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Deluxe Fish Tank Bottom": "Dirt"
+		}
+	},
+	{
+		"LogName" : "Deluxe Fish Tank Shavings Bottom",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/deluxe/Deluxe Shavings Bottom.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 160, "Height": 48 },
+         "ToArea": { "X": 128, "Y": 1152, "Width": 160, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Deluxe Fish Tank Bottom": "Shavings"
+		}
+	},
+	{
+		"LogName" : "Deluxe Fish Tank Red Sand Bottom",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/deluxe/Deluxe Red Sand Bottom.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 160, "Height": 48 },
+         "ToArea": { "X": 128, "Y": 1152, "Width": 160, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Deluxe Fish Tank Bottom": "Red Sand"
+		}
+	},
+	{
 		"LogName" : "Deluxe Fish Tank Colored Specks Overlay",
          "Action": "EditImage",
          "Target": "TileSheets/furniture",
@@ -169,15 +265,75 @@
 		}
 	},
 	{
-		"LogName" : "Deluxe Fish Tank Equipment",
+		"LogName" : "Deluxe Fish Tank Puddle Overlay",
          "Action": "EditImage",
          "Target": "TileSheets/furniture",
-         "FromFile": "assets/deluxe/Deluxe Equipment.png",
+         "FromFile": "assets/deluxe/Deluxe Puddle Overlay.png",
          "FromArea": { "X": 0, "Y": 0, "Width": 160, "Height": 48 },
          "ToArea": { "X": 128, "Y": 1152, "Width": 160, "Height": 48 },
 		"PatchMode": "Overlay",
 		"When":{ 
-			"Deluxe Fish Tank Equipment": "true"
+			"Deluxe Fish Tank Bottom Overlay": "Puddle"
+		}
+	},
+	{
+		"LogName" : "Deluxe Fish Tank Equipment",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/deluxe/Deluxe Fish Equipment.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 160, "Height": 48 },
+         "ToArea": { "X": 128, "Y": 1152, "Width": 160, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Deluxe Fish Tank Equipment": "Fish Equipment"
+		}
+	},
+	{
+		"LogName" : "Deluxe Rodent Equipment",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/deluxe/Deluxe Rodent Equipment.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 160, "Height": 48 },
+         "ToArea": { "X": 128, "Y": 1152, "Width": 160, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Deluxe Fish Tank Equipment": "Rodent Equipment"
+		}
+	},
+	{
+		"LogName" : "Deluxe Heat Lamp",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/deluxe/Deluxe Heat Lamp.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 160, "Height": 48 },
+         "ToArea": { "X": 128, "Y": 1152, "Width": 160, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Deluxe Fish Tank Equipment": "Heat Lamp"
+		}
+	},
+	{
+		"LogName" : "Deluxe Hanging Nectar Feeder",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/deluxe/Deluxe Hanging Nectar Feeder.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 160, "Height": 48 },
+         "ToArea": { "X": 128, "Y": 1152, "Width": 160, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Deluxe Fish Tank Equipment": "Hanging Nectar Feeder"
+		}
+	},
+	{
+		"LogName" : "Deluxe Hanging Bird Toys",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/deluxe/Deluxe Hanging Bird Toys.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 160, "Height": 48 },
+         "ToArea": { "X": 128, "Y": 1152, "Width": 160, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Deluxe Fish Tank Equipment": "Hanging Bird Toys"
 		}
 	},
 	]

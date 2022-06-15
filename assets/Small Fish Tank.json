@@ -9,7 +9,19 @@
          "ToArea": { "X": 288, "Y": 1152, "Width": 64, "Height": 48 },
 		"PatchMode": "Replace",
 		"When":{ 
-			"Small Fish Tank": "true"
+			"Small Fish Tank": "Tank"
+		}
+	},
+		{
+		"LogName" : "New Small Cage",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/small/Small Cage.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 48 },
+         "ToArea": { "X": 288, "Y": 1152, "Width": 64, "Height": 48 },
+		"PatchMode": "Replace",
+		"When":{ 
+			"Small Fish Tank": "Cage"
 		}
 	},
 	{
@@ -34,6 +46,18 @@
 		"PatchMode": "Overlay",
 		"When":{ 
 			"Small Fish Tank Top": "Full Hood"
+		}
+	},
+	{
+		"LogName" : "Small Fish Tank Floating Plants Top",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/small/Small Floating Plants Top.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 48 },
+         "ToArea": { "X": 288, "Y": 1152, "Width": 64, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Small Fish Tank Top": "Floating Plants"
 		}
 	},
 	{
@@ -85,6 +109,18 @@
 		}
 	},
 	{
+		"LogName" : "Small Fish Tank Black Background",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/small/Small Black Background.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 48 },
+         "ToArea": { "X": 288, "Y": 1152, "Width": 64, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Small Fish Tank Background": "Black"
+		}
+	},
+	{
 		"LogName" : "Small Fish Tank Mossy Overlay",
          "Action": "EditImage",
          "Target": "TileSheets/furniture",
@@ -94,6 +130,18 @@
 		"PatchMode": "Overlay",
 		"When":{ 
 			"Small Fish Tank Background Overlay": "Mossy"
+		}
+	},
+	{
+		"LogName" : "Small Fish Tropical Vines Overlay",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/small/Small Tropical Vines.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 48 },
+         "ToArea": { "X": 288, "Y": 1152, "Width": 64, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Small Fish Tank Background Overlay": "Tropical Vines"
 		}
 	},
 	{
@@ -157,6 +205,54 @@
 		}
 	},
 	{
+		"LogName" : "Small Fish Tank Red Sand Bottom",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/small/Small Red Sand Bottom.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 48 },
+         "ToArea": { "X": 288, "Y": 1152, "Width": 64, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Small Fish Tank Bottom": "Red Sand"
+		}
+	},
+	{
+		"LogName" : "Small Fish Tank Dirt Bottom",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/small/Small Dirt Bottom.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 48 },
+         "ToArea": { "X": 288, "Y": 1152, "Width": 64, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Small Fish Tank Bottom": "Dirt"
+		}
+	},
+	{
+		"LogName" : "Small Fish Tank Straw Bottom",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/small/Small Straw Bottom.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 48 },
+         "ToArea": { "X": 288, "Y": 1152, "Width": 64, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Small Fish Tank Bottom": "Straw"
+		}
+	},
+	{
+		"LogName" : "Small Fish Tank Shavings Bottom",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/small/Small Shavings Bottom.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 48 },
+         "ToArea": { "X": 288, "Y": 1152, "Width": 64, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Small Fish Tank Bottom": "Shavings"
+		}
+	},
+	{
 		"LogName" : "Small Fish Tank Colored Specks Overlay",
          "Action": "EditImage",
          "Target": "TileSheets/furniture",
@@ -169,15 +265,75 @@
 		}
 	},
 	{
-		"LogName" : "Small Fish Tank Equipment",
+		"LogName" : "Small Fish Tank Puddle Overlay",
          "Action": "EditImage",
          "Target": "TileSheets/furniture",
-         "FromFile": "assets/small/Small Equipment.png",
+         "FromFile": "assets/small/Small Puddle Overlay.png",
          "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 48 },
          "ToArea": { "X": 288, "Y": 1152, "Width": 64, "Height": 48 },
 		"PatchMode": "Overlay",
 		"When":{ 
-			"Small Fish Tank Equipment": "true"
+			"Small Fish Tank Bottom Overlay": "Puddle"
+		}
+	},
+	{
+		"LogName" : "Small Fish Tank Equipment",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/small/Small Fish Equipment.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 48 },
+         "ToArea": { "X": 288, "Y": 1152, "Width": 64, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Small Fish Tank Equipment": "Fish Equipment"
+		}
+	},
+	{
+		"LogName" : "Small Rodent Equipment",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/small/Small Rodent Equipment.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 48 },
+         "ToArea": { "X": 288, "Y": 1152, "Width": 64, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Small Fish Tank Equipment": "Rodent Equipment"
+		}
+	},
+	{
+		"LogName" : "Small Heat Lamp Equipment",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/small/Small Heat Lamp.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 48 },
+         "ToArea": { "X": 288, "Y": 1152, "Width": 64, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Small Fish Tank Equipment": "Heat Lamp"
+		}
+	},
+	{
+		"LogName" : "Small Hanging Nectar Feeder",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/small/Small Hanging Nectar Feeder.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 48 },
+         "ToArea": { "X": 288, "Y": 1152, "Width": 64, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Small Fish Tank Equipment": "Hanging Nectar Feeder"
+		}
+	},
+	{
+		"LogName" : "Small Hanging Bird Toys",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/small/Small Hanging Bird Toys.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 48 },
+         "ToArea": { "X": 288, "Y": 1152, "Width": 64, "Height": 48 },
+		"PatchMode": "Overlay",
+		"When":{ 
+			"Small Fish Tank Equipment": "Hanging Bird Toys"
 		}
 	},
 	]
