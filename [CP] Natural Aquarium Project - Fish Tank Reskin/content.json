@@ -1,10 +1,6 @@
 {
     "Format": "1.23.0",
       "ConfigSchema": {
-         "Tank Bubbles On": {
-            "AllowValues": "True, False",
-            "Default": "True"
-        },
         "Small Fish Tank": {
             "AllowValues": "Original, Tank, Cage",
             "Default": "Original"
@@ -159,20 +155,5 @@
         "Action": "Include",
         "FromFile": "assets/Modern Fish Tank.json",
     },
-    {
-      "Action": "EditImage",
-      "Target": "LooseSprites/AquariumFish",
-      "FromFile": "assets/bubble_cover.png",
-      "ToArea": {
-         "X": 0,
-         "Y": 240,
-         "Width": 16,
-         "Height": 16
-         },
-        "PatchMode": "Replace",
-        "When":{ 
-            "Tank Bubbles On": "False"
-        }
-      },
     ]
 }
